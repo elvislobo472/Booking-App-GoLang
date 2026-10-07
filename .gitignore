@@ -1,4 +1,4 @@
-# Go build binaries
+// Go build binaries
 *.exe
 *.exe~
 *.dll

@@ -14,8 +14,11 @@ func main() {
 	fmt.Println()
 	fmt.Println()
 
-	fmt.Println("Total seats for the conference:", conferenceTickets)
-	fmt.Println("Remaining seats for the conference:", remainingTickets)
+	fmt.Println("Total seats for the conference:", conferenceTickets) //without using format specifier
+
+//Using format specifier
+
+	fmt.Printf("There are %v seats remaining for the conference\n", remainingTickets)
 
 	fmt.Print("Let's get you some seats :)")
 }
