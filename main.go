@@ -1,5 +1,6 @@
 package main
-import "fmt"  // fmt stands for format
+
+import "fmt"
 
 func main() {
 
@@ -20,5 +21,18 @@ func main() {
 
 	fmt.Printf("There are %v seats remaining for the conference\n", remainingTickets)
 
-	fmt.Print("Let's get you some seats :)")
+	fmt.Print("Let's get you some seats :)\n")
+
+
+
+	var userName string
+
+	//Ask for username
+
+	fmt.Print("Enter your username: ")
+	fmt.Scan(&userName)
+
+
+
+
 }
