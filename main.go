@@ -26,6 +26,9 @@ func main() {
 
 	fmt.Print("Let's get you some seats :)\n")
 
+
+
+
 	var userName string
 	var userTickets, age uint
 	var firstName, lastName, email string
@@ -37,6 +40,12 @@ func main() {
 
 	fmt.Print("Enter your last name: ")
 	fmt.Scan(&lastName)
+
+	//Using Slices
+
+	booking := [50]string{}
+
+	booking[0] = firstName +" "+ lastName
 
 	fmt.Print("Enter your age: ")
 	fmt.Scan(&age)
