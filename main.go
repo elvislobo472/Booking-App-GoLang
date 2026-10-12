@@ -26,9 +26,6 @@ func main() {
 
 	fmt.Print("Let's get you some seats :)\n")
 
-
-
-
 	var userName string
 	var userTickets, age uint
 	var firstName, lastName, email string
@@ -45,7 +42,7 @@ func main() {
 
 	booking := [50]string{}
 
-	booking[0] = firstName +" "+ lastName
+	booking[0] = firstName + " " + lastName
 
 	fmt.Print("Enter your age: ")
 	fmt.Scan(&age)
@@ -66,7 +63,7 @@ func main() {
 
 	remainingTickets -= userTickets
 
-	fmt.Printf("Thank you %s %s for booking %d tickets. You will receive a confirmation email on %s\n\n", firstName, lastName, userTickets, email)
+	fmt.Printf("Thank you %v for booking %d tickets. You will receive a confirmation email on %s\n\n", booking[0], userTickets, email)
 
 	fmt.Printf("There are %v seats remaining for the conference!!\n", remainingTickets)
 
