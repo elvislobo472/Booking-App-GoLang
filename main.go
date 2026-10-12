@@ -55,10 +55,10 @@ func main() {
 	fmt.Print("How many tickets would you like to buy? ")
 	fmt.Scan(&userTickets)
 
-	//remainingTickets -= userTickets
-	//
-	//fmt.Printf("Thank you %s %s for booking %d tickets. You will receive a confirmation email on %s\n\n", firstName, lastName, userTickets, email)
-	//
-	//fmt.Printf("There are %v seats remaining for the conference!!\n", remainingTickets)
+	remainingTickets -= userTickets
+
+	fmt.Printf("Thank you %s %s for booking %d tickets. You will receive a confirmation email on %s\n\n", firstName, lastName, userTickets, email)
+
+	fmt.Printf("There are %v seats remaining for the conference!!\n", remainingTickets)
 
 }
